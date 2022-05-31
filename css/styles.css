@@ -227,7 +227,7 @@ main {
   margin-right: 30px;
 }
 .feuture-icon {
-  margin: auto auto;
+ 
   width: 70px;
   height: 70px;
 }
@@ -238,6 +238,8 @@ main {
   border-radius: 3px;
   display: flex;
   background-color: #F5F4FA;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -307,10 +309,11 @@ main {
 .social-icon{
   width: 20px;
   height: 20px;
-  margin: auto;
   fill: currentColor;
 }
 .social-item .link {
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -379,6 +382,8 @@ main {
 
 
 .clients .link {
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   display: flex;
   width: 170px;
@@ -396,7 +401,6 @@ main {
 }
 
 .clients .icon {
-  margin: auto;
   fill: currentColor;
 } 
 
